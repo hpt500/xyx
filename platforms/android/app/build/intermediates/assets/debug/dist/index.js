@@ -62,25 +62,25 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 0);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ([
-/* 0 */
+/* 0 */,
+/* 1 */,
+/* 2 */,
+/* 3 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __vue_exports__, __vue_options__
 var __vue_styles__ = []
 
 /* styles */
-__vue_styles__.push(__webpack_require__(1)
+__vue_styles__.push(__webpack_require__(4)
 )
 
-/* script */
-__vue_exports__ = __webpack_require__(2)
-
 /* template */
-var __vue_template__ = __webpack_require__(3)
+var __vue_template__ = __webpack_require__(5)
 __vue_options__ = __vue_exports__ = __vue_exports__ || {}
 if (
   typeof __vue_exports__.default === "object" ||
@@ -114,78 +114,26 @@ new Vue(module.exports)
 
 
 /***/ }),
-/* 1 */
+/* 4 */
 /***/ (function(module, exports) {
 
-module.exports = {
-  "wrapper": {
-    "justifyContent": "center",
-    "alignItems": "center"
-  },
-  "logo": {
-    "width": "424",
-    "height": "200"
-  },
-  "greeting": {
-    "marginTop": "70",
-    "fontSize": "50",
-    "color": "#41B883"
-  },
-  "message": {
-    "marginTop": "30",
-    "marginRight": "30",
-    "marginBottom": "30",
-    "marginLeft": "30",
-    "fontSize": "32",
-    "color": "#727272"
-  }
-}
+module.exports = {}
 
 /***/ }),
-/* 2 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-//
-//
-//
-//
-//
-//
-//
-//
-
-exports.default = {
-  data: function data() {
-    return {
-      logo: 'https://gw.alicdn.com/tfs/TB1yopEdgoQMeJjy1XaXXcSsFXa-640-302.png'
-    };
-  }
-};
-
-/***/ }),
-/* 3 */
+/* 5 */
 /***/ (function(module, exports) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _vm._m(0)
+},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('div', {
     staticClass: ["wrapper"]
-  }, [_c('image', {
-    staticClass: ["logo"],
-    attrs: {
-      "src": _vm.logo
+  }, [_c('text', {
+    staticStyle: {
+      fontSize: "40px"
     }
-  }), _c('text', {
-    staticClass: ["greeting"]
-  }, [_vm._v("The environment is ready!")]), _c('text', {
-    staticClass: ["message"]
-  }, [_vm._v("Now 123 , let's use Vue.js to build your Weex app.")])])
-},staticRenderFns: []}
+  }, [_vm._v("更改入口文123件")])])
+}]}
 module.exports.render._withStripped = true
 
 /***/ })

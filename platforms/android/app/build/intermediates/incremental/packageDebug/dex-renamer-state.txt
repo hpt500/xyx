@@ -1,4 +1,4 @@
-#Fri Jan 26 15:48:26 CST 2018
+#Fri Jan 26 16:48:53 CST 2018
 base.0=D\:\\a_work\\weex\\xyx\\platforms\\android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
 renamed.0=classes.dex
 file.0=D\:\\a_work\\weex\\xyx\\platforms\\android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex

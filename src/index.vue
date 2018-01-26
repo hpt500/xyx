@@ -1,38 +1,31 @@
 <template>
   <div class="wrapper">
-    <image :src="logo" class="logo"></image>
-    <text class="greeting">The environment is ready!</text>
-    <text class="message">Now 12223 , let's use Vue.js to build your Weex app.</text>
+    
+    <!--<text style="font-size:40px;">更改入口文123件</text>-->
+    <xxy-tab-bar></xxy-tab-bar>
+    
   </div>
 </template>
 
 <script>
+  
+  import xxyTabBar from './components/xxyTabBar.vue'
   export default {
     data () {
       return {
-        logo: 'https://gw.alicdn.com/tfs/TB1yopEdgoQMeJjy1XaXXcSsFXa-640-302.png',
+       
       }
+    }, 
+    components:{
+      xxyTabBar
     }
   }
 </script>
 
 <style scoped>
   .wrapper {
-    justify-content: center;
-    align-items: center;
+    /*justify-content: center;
+    align-items: center;*/
   }
-  .logo {
-    width: 424px;
-    height: 200px;
-  }
-  .greeting {
-    margin-top: 70px;
-    font-size: 50px;
-    color: #41B883;
-  }
-  .message {
-    margin: 30px;
-    font-size: 32px;
-    color: #727272;
-  }
+
 </style>
